@@ -261,7 +261,7 @@ class Crawler:
             return
 
         # mark it as seen before fetching it to avoid having
-        # dupliacates in the queue
+        # duplicates in the queue
         self._seen_urls.mark_seen(crawler_url)
         self._urls_to_visit.put(crawler_url)
 
