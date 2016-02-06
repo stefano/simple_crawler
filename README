@@ -1,0 +1,13 @@
+A simple crawler.
+
+It requires python 3.
+
+Build:
+
+    $ virtualenv -p python3 .env
+    $ . .env/bin/activate
+    $ pip install -r requirements.txt
+
+Usage:
+
+    $ python crawler.py http://<root url>
